@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+html,
+body {
+   padding: 0;
+   margin: 0;
+   line-height: 1.6;
+   font-size: 16px;
+   background-color: #f9fafb;
+   z-index: 99;
+   font-family: 'Open Sans', sans-serif;
+   overflow-x: hidden;
+}
+
+* {
+   box-sizing: border-box;
+}
+ul{
+  list-style-type: '';
+}
+li{
+   
+   font-size: 16px;
+}
+a {
+   color: #030712;
+   text-decoration: none;
+   font-size: 1em;
+   font-weight: 400;
+   z-index: 999;
+   font-family: 'Open Sans', sans-serif;
+}
+p{
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;
+    color:#030712;
+    letter-spacing: -0.01em;
+}
+h1{
+    font-size: 48px;
+    font-weight: 500;
+    margin: 0;
+    line-height: 1.1;
+    color: #030712;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.03em;
+}
+h2{
+    font-size: 30px;
+    font-weight: 450;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    margin: 0;
+    color:#030712;
+    font-family: 'Open Sans', sans-serif;
+
+}
+h3{
+  font-size: 1.1em;
+  font-weight: 500;
+  margin: 0;
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
+  color:#030712;
+  letter-spacing: -0.01em;
+  padding-bottom: 12px;
+}
+.button{
+   color:#030712;
+}
+@media screen and (max-device-width: 640px) {
+   h2{
+      font-size: 1.618em;
+      font-weight: 450;
+      line-height: 1.1;
+      letter-spacing: -0.03em;
+      margin: 0;
+      color:#030712;
+      font-family: 'Open Sans', sans-serif;
+  
+  }
+  .hero_content{
+   padding-top:90px;
+  }
+
+}
+
+.hero_backdrop{
+   background: rgba(0,0,0,.65);
+    
+     position: absolute;
+   height: 90vh;
+   width: 100%;
+   z-index:1;
+   max-height: 100%;
+ }
+
+ .navbar{
+   z-index: 20;
+   position: fixed;
+   color: #fff;
+ 
+ }
+ .navbar a{
+   color: #fff;
+ }
+
+ .navbar.active{
+background: #fff;
+color:#000;
+border-bottom: 1px solid #000;
+ }
+ .navbar.active a{
+   color: #000;
+ }
+ .mux_video:hover{
+  box-shadow: none !important;
+ }

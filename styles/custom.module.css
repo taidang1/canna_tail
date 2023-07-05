@@ -1,0 +1,247 @@
+.custom_section{
+    height: auto;
+    width: 100%;
+    background-color: #E8E6E1;
+    padding-top: 150px;
+    
+}
+.custom_hero_text{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+ 
+   
+}
+.custom_hero_wrap{
+    display: flex;
+    padding: 30px 60px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.custom_hero_btn{
+    background-color:  #51CA58;
+    padding: 12px 18px;
+    border-radius:25px;
+    font-size: 1.1em;
+    border: none;
+    margin-top: 20px;
+    color:#1D1A13;
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.custom_two{
+    height: auto;
+ 
+    background-color: #E8E6E1;
+   padding: 90px 0;
+     
+}
+.custom_two_wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+   
+     
+}
+.custom_two_box_one{
+    height: 220px;
+    width: 300px;
+    background-color: #FAF9F7 ;
+    border-radius: 25px;
+    padding: 20px;
+}
+.custom_two_box_two{
+    height: 220px;
+    width: 300px;
+    background-color: #FAF9F7 ;
+    border-radius: 25px;
+    padding: 20px;
+}
+.custom_two_box_three{
+    height: 220px;
+    width: 300px;
+    background-color: #FAF9F7 ;
+    border-radius: 25px;
+    padding: 20px;
+}
+.custom_two_title{
+    width: 60%;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    padding-left: 95px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+.custom_three{
+    height:80vh;
+}
+.custom_three_wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.custom_three_img{
+    height: 450px;
+    width: auto;
+}
+.custom_three_text{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.custom_four{
+    height:80vh;
+}
+.custom_four_wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.custom_four_img{
+    height: 420px;
+    width: auto;
+}
+.custom_four_text{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+@media screen and (max-device-width: 640px) {
+
+    .custom_section{
+     
+        padding-top: 90px;
+        
+    }
+
+
+    .custom_hero_text{
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        margin-top: 20px;
+     
+       
+    }
+    .custom_hero_wrap{
+        display: flex;
+        padding: 30px 0px;
+        flex-direction: column-reverse;
+        align-items: center;
+       
+    }
+    .custom_hero_video{
+        height: 280px !important;
+    
+    }
+
+    .custom_two{
+        height: auto;
+     
+        background-color: #E8E6E1;
+       padding: 30px 0;
+         
+    }
+    .custom_two_wrap{
+        display: flex;
+        flex-direction: column;
+   
+        align-items: center;
+       
+         
+    }
+    .custom_two_box_one{
+        height: 200px;
+        width: 350px;
+        background-color: #FAF9F7 ;
+        border-radius: 25px;
+        padding: 20px;
+        margin-bottom: 12px;
+    }
+    .custom_two_box_two{
+        height: 200px;
+        width: 350px;
+        background-color: #FAF9F7 ;
+        border-radius: 25px;
+        padding: 20px;
+        margin-bottom: 12px;
+    }
+    .custom_two_box_three{
+        height: 200px;
+        width: 350px;
+        background-color: #FAF9F7 ;
+        border-radius: 25px;
+        padding: 20px;
+    }
+    .custom_two_title{
+        width: 85%;
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+        padding-left: 30px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    
+    }
+
+.custom_three{
+    height:auto;
+}
+.custom_three_wrap{
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+   
+}
+.custom_three_img{
+    height: 330px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: auto;
+}
+.custom_three_text{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.custom_four{
+    height:auto;
+    padding: 60px 0;
+}
+.custom_four_wrap{
+    display: flex;
+    flex-direction: column-reverse;
+    
+    align-items: center;
+   
+}
+.custom_four_img{
+    height: 300px;
+    width: auto;
+}
+.custom_four_text{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+    
+}
+
+
+
+}

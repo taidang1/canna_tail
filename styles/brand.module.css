@@ -1,0 +1,214 @@
+.brand_section{
+    height: auto;
+    width: 100%;
+
+    background-color: #E8E6E1;
+    padding-top: 150px;
+}
+
+.brand_hero{
+    height: auto;
+    width: 100%;
+    background-color: #E8E6E1;
+    padding: 0 20px;
+    padding-bottom: 60px;
+}
+.brand_hero_wrap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+  
+   
+}
+.brand_hero_text{
+  width: 40%;
+    display: flex;
+    flex-direction: column;
+   
+}
+.brand_hero_btn{
+    background-color:  #51CA58;
+    color:#1D1A13;
+    padding: 12px 18px;
+    border-radius:25px;
+    font-size: 1.1em;
+    border: none;
+    margin-top: 20px;
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.brand_two{
+    height: 80vh;
+}
+.brand_two_wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  
+}
+.brand_two_box_one{
+    height: 200px;
+    width: 330px;
+    background-color: #FAF9F7 ;
+    border-radius: 25px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.brand_two_box_two{
+    height: 200px;
+    width: 330px;
+    background-color: #FAF9F7 ;
+    border-radius: 25px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.brand_two_box_three{
+    height: 200px;
+    width: 330px;
+    background-color: #FAF9F7 ;
+    border-radius: 25px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.brand_three{
+    height: 80vh;
+    background-color: #E8E6E1;
+   
+    padding: 60px 0;
+    padding-left: 60px;
+    padding-right: 20px;
+}
+.brand_three_wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+  
+}
+.brand_three_img{
+    height: 350px;
+    width: auto;
+}
+.brand_three_text{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+@media screen and (max-device-width: 640px) {
+
+    .brand_section{
+      
+        padding-top: 90px;
+    }
+
+    .brand_hero{
+        height: auto;
+        width: 100%;
+        background-color: #E8E6E1;
+        padding: 0 0px;
+        padding-bottom: 20px;
+    }
+    .brand_hero_wrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+        margin: 20px;
+      
+       
+    }
+    .brand_hero_text{
+      width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+       
+    }
+    .brand_hero_video{
+        height:230px !important;
+        margin-left: 20px;
+    }
+
+    .brand_two{
+        height: auto;
+    }
+    .brand_two_wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+      
+    }
+    .brand_two_box_one{
+        height: 200px;
+        width: 350px;
+        background-color: #FAF9F7 ;
+        border-radius: 25px;
+        padding: 20px;
+        margin-bottom: 12px;
+    }
+    .brand_two_box_two{
+        height: 200px;
+        width: 350px;
+        background-color: #FAF9F7 ;
+        border-radius: 25px;
+        padding: 20px;
+        margin-bottom: 12px;
+    }
+    .brand_two_box_three{
+        height: 200px;
+        width: 350px;
+        background-color: #FAF9F7 ;
+        border-radius: 25px;
+        padding: 20px;
+    }
+    .brand_two_title{
+        padding:12px 0px !important;
+    }
+    .brand_two_text{
+        padding-bottom: 20px !important;
+    }
+
+    .brand_three{
+        height: auto;
+        background-color: #E8E6E1;
+       
+        padding: 60px 0;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .brand_three_wrap{
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        
+      
+    }
+    .brand_three_img{
+        height: 250px;
+        width: auto;
+        margin-bottom: 60px;
+        margin-top: 20px;
+    }
+    .brand_three_text{
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        
+       
+    }
+
+}

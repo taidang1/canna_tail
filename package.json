@@ -1,0 +1,41 @@
+{
+  "name": "01ninja01",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build && next export -o output",
+    "start": "next start",
+    "serve": "serve output",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@headlessui/react": "^1.7.15",
+    "@heroicons/react": "^2.0.18",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.11",
+    "@mux/mux-player": "^1.8.0",
+    "@mux/mux-player-react": "^1.8.0",
+    "@mux/mux-video-react": "^0.7.7",
+    "@mux/videojs-kit": "^0.11.4",
+    "@next/font": "13.1.6",
+    "@react-google-maps/api": "^2.18.1",
+    "firebase": "^8.5.0",
+    "framer-motion": "^10.0.1",
+    "google-maps-react": "^2.0.6",
+    "next": "13.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sharp": "^0.32.0",
+    "swiper": "^9.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/jit": "^0.1.18",
+    "autoprefixer": "^10.4.14",
+    "daisyui": "^3.1.7",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2"
+  }
+}

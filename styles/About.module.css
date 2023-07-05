@@ -1,0 +1,233 @@
+.about_section{
+    height:auto;
+    width: 100%;
+}
+.about_header{
+    height: 70vh;
+    padding-top: 130px;
+    width: 100%;
+    position: relative;
+    background-color: #E8E6E1;
+   
+}
+.about_header_wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.about_hero_button{
+    padding: 16px 20px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 30px;
+    color:#1D1A13;
+    font-size: 1.1em;
+    font-weight: 500;
+    background-color: #51CA58;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.about_hero_button:active{
+    box-shadow: none;
+}
+.about_two{
+    height: auto;
+    width: 100%;
+    background-color: #E8E6E1;
+ 
+}
+.about_two_wrap{
+    padding:0 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: solid 1px #857F72;
+height:auto;
+padding-bottom: 60px;
+}
+.about_two_one{
+    padding:20px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    height:200px;
+    width: 360px;
+    background-color:  #FAF9F7;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.about_two_one:hover{
+   background-color: #C1F2C7;
+   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+            transition: ease-in-out .2s;
+}
+.about_two_two{
+    height:200px;
+    width: 360px;
+    display: flex;
+    padding:20px;
+    flex-direction:row;
+    align-items: center;
+    background-color:  #FAF9F7;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.about_two_two:hover{
+    background-color: #C1F2C7;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+                transition: ease-in-out .2s;
+}
+.about_two_three{
+    height:200px;
+    width: 360px;
+    padding:20px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    background-color:  #FAF9F7;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+.about_two_three:hover{
+    background-color: #C1F2C7;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+                transition: ease-in-out .2s;
+}
+.about_us_img{
+    height: 400px;
+    width:auto;
+}
+.about_us{
+    height: auto;
+    width: 100%;
+    background-color: #E8E6E1;
+    z-index: 999;
+    padding: 60px 90px;
+}
+.about_us_wrap{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ align-items: center;
+    height:auto;
+    padding-bottom: 60px;
+   
+}
+.about_us_text{
+    width:45%;
+}
+.about_banner{
+    height: 40vh;
+    width: 100%;
+    background-color: #EF4E4E;
+
+}
+.about_banner_wrap{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+}
+.about_banner_button{
+    padding: 16px 20px;
+    border-radius: 25px;
+    border: none;
+    background-color: #51CA58;
+    color:#1D1A13;
+    font-size: 18px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+}
+
+
+
+@media screen and (max-device-width: 640px) {
+
+    .about_header_title{
+        width:85% !important;
+        text-align: left;
+    }
+    .about_header_p{
+        width:85% !important;
+        text-align: left;
+    }
+    .about_two_wrap{
+        padding:30px 15px;
+        display: flex;
+        flex-direction: column;
+
+     
+        border-bottom: solid 1px #857F72;
+    height:auto;
+
+    }
+    .about_two_one{
+        margin-bottom: 12px;
+    }
+    .about_two_two{
+        margin-bottom: 12px;
+    }
+    .about_two_three{
+        
+    }
+    .about_header{
+        height: auto;
+        padding-top: 90px;
+ 
+       
+    }
+    .about_us{
+        padding: 30px 20px;
+    }
+    .about_us_wrap{
+        display: flex;
+        flex-direction: column;
+      
+        align-items: center;
+        padding-bottom: 20px;
+      
+       
+    }
+
+    .about_us_text{
+        width:95%;
+    }
+    .about_us_img{
+        height: 360px;
+        width:auto;
+        padding-top: 20px;
+    }
+
+    .about_banner{
+        height: 30vh;
+        width: 100%;
+        background-color: #EF4E4E;
+    
+    }
+    .about_banner_wrap{
+        display: flex;
+        flex-direction:column;
+        
+        align-items: center;
+        height: 80%;
+    }
+    .about_banner_button{
+        padding: 16px 20px;
+        border-radius: 25px;
+        border: none;
+        background-color: #51CA58;
+        font-size: 18px;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    
+    }
+    .banner_text{
+        width:85% !important;
+    }
+
+
+}
